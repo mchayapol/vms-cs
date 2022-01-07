@@ -4,6 +4,7 @@ module.exports = {
     title: "vms-cs",
   },
   plugins: [
+    'gatsby-plugin-postcss',
     {
       resolve: "gatsby-source-wordpress",
       options: {
