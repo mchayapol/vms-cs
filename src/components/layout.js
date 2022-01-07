@@ -1,13 +1,12 @@
 import * as React from "react";
-
+import Header from "../components/header";
+import Footer from "./footer";
 const Layout = ({ children }) => {
   return (
     <>
-      {/* <GlobalStyle />
-      <Header /> */}
-
+      <Header />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
       {/* <CookieConsent
         location="bottom"
         buttonText="Accept"
@@ -17,7 +16,7 @@ const Layout = ({ children }) => {
         This site uses cookies ...
       </CookieConsent> */}
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

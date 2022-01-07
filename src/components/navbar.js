@@ -19,7 +19,7 @@ const Navbar = ({ children }) => {
           <li>
             <a
               class="block text-sm text-center text-gray-800 dark:text-white lg:text-base hover:text-gray-700 dark:hover:text-gray-300"
-              href="https://www.cs.au.edu"
+              href="/"
             >
               VMS: COMPUTER SCIENCE
             </a>
