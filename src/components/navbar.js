@@ -40,6 +40,7 @@ const Navbar = ({ children }) => {
         <ul className="flex items-center">
           <li className="pr-6 text-gray-300">Programs</li>
           <li className="pr-6 text-gray-300">Study Plan</li>
+          <li className="pr-6 text-gray-300"><a href="/contact">Contact</a></li>
           <li className="pr-6 text-gray-300">Apply Now</li>
           <li className="pr-6 text-gray-300">
             <a href="http://auspark.au.edu/">

@@ -53,7 +53,7 @@ const BlogList = () => {
           {/* <pre>{p.content}</pre> */}
           <div className="flex justify-between mb-2">
             <span className="font-thin text-sm">{p0.date}</span>
-            <span className="sm:block hidden mb-2 text-gray-800 font-bold">
+            <span className="sm:block  mb-2 text-gray-800 font-bold ">
               Read more
             </span>
           </div>
@@ -70,23 +70,21 @@ const BlogList = () => {
       </div>
 
       <div className="mt-6 md:flex space-x-6">
-        {posts.slice(1,4).map((p, i) => (
+        {posts.slice(1, 4).map((p, i) => (
           <SmallCard post={p} />
         ))}
-
-
       </div>
     </main>
   );
 };
 
-const SmallCard = ({post}) => (
+const SmallCard = ({ post }) => (
   <div>
     <img src={post.featuredImage.node.sourceUrl} alt="" />
     <div>
-      <h1 className="mt-3 text-gray-800 text-2xl font-bold my-2">
+      <h2 className="mt-3 text-gray-800 text-xl font-bold my-2">
         {post.title}
-      </h1>
+      </h2>
       <p className="text-gray-700 mb-2">
         {parse(post.content.substring(0, post.content.indexOf("<!--more-->")))}
       </p>

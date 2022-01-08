@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "vms-cs",
+    siteUrl: "https://www.cs.au.edu",
+    title: "VMS Computer Science",
   },
   plugins: [
     'gatsby-plugin-postcss',
