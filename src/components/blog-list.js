@@ -42,7 +42,7 @@ const BlogList = () => {
     <main className="py-12 md:px-20 sm:px-14 px-6">
       {/* <h1>Blogs {posts.length}</h1> */}
 
-      <div className="sm:flex items-center shadow-md">
+      <div className="sm:flex items-center shadow-md shadow-gray-800">
         <div className="md:px-10 sm:px-5">
           <h1 className="text-gray-800 font-bold text-2xl my-2">{p0.title}</h1>
 
@@ -69,9 +69,9 @@ const BlogList = () => {
         </div>
       </div>
 
-      <div className="mt-6 md:flex space-x-6">
-        {posts.slice(1, 4).map((p, i) => (
-          <SmallCard post={p} />
+      <div className="grid grid-cols-3 mt-6 space-x-6 md:grid-flow-rows md:grid-cols-1">
+        {posts.slice(1, 6).map((p, i) => (
+          <SmallCard post={p} key={i}/>
         ))}
       </div>
     </main>
@@ -79,16 +79,16 @@ const BlogList = () => {
 };
 
 const SmallCard = ({ post }) => (
-  <div>
+  <div className="shadow-md shadow-gray-800 mb-4">
     <img src={post.featuredImage.node.sourceUrl} alt="" />
     <div>
-      <h2 className="mt-3 text-gray-800 text-xl font-bold my-2">
+      <h2 className="mt-2 mx-2 my-2 font-bold text-cs-gray text-lg">
         {post.title}
       </h2>
-      <p className="text-gray-700 mb-2">
+      <p className="text-gray-700 mx-4 mb-2">
         {parse(post.content.substring(0, post.content.indexOf("<!--more-->")))}
       </p>
-      <div className="flex justify-between mt-4">
+      <div className="mx-2 my-1 mt-4 flex justify-between">
         <span className="font-thin text-sm">{post.date}</span>
         <span className="mb-2 text-gray-800 font-bold">Read more</span>
       </div>
