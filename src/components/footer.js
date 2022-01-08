@@ -6,148 +6,75 @@ const Footer = () => {
       <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
         <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
           <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-            Getting Started
+            Contact
           </div>
 
           <a
-            href="#"
+            href="https://www.vms.au.edu"
             class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Installation
+            Vincent Mary School of Science and Technology (VMS)
+          </a>
+          <a
+            href="https://www.au.edu"
+            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+          >
+            Assumption University
+          </a>
+          <span class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            Email: info@vms.au.edu
+            <br />
+            Tel: (+66)-2-723-2222
+          </span>
+        </div>
+
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+          <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+            Social Media
+          </div>
+
+          <a
+            href="https://www.facebook.com/vms.au.edu"
+            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+          >
+            Facebook
+          </a>
+          <a
+            href="https://www.instagram.com/vms.au/?hl=en"
+            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+          >
+            Instagram
           </a>
           <a
             href="#"
             class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Release Notes
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Upgrade Guide
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Using with Preprocessors
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Optimizing for Production
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Browser Support
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            IntelliSense
+            LINE Official
           </a>
         </div>
 
         <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
           <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-            Core Concepts
+            Resources
           </div>
+          <a
+            href="https://www.it.au.edu"
+            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+          >
+            VMS Information Technology
+          </a>
 
           <a
             href="#"
             class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Utility-First
+            Student Group
           </a>
           <a
             href="#"
             class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
-            Responsive Design
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Hover, Focus, & Other States
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Dark Mode
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Adding Base Styles
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Extracting Components
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Adding New Utilities
-          </a>
-        </div>
-
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-          <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-            Customization
-          </div>
-
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Configuration
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Theme Configuration
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Breakpoints
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Customizing Colors
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Customizing Spacing
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Configuring Variants
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Plugins
+            AU Spark
           </a>
         </div>
 
@@ -167,12 +94,6 @@ const Footer = () => {
             class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
           >
             Discord
-          </a>
-          <a
-            href="#"
-            class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
-          >
-            Twitter
           </a>
           <a
             href="#"
