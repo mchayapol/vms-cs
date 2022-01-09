@@ -10,10 +10,10 @@ const Navbar = ({ children }) => {
       {/* <nav className="bg-gradient-to-r from-black to-cs-gray text-neutral-50 px-4 flex justify-between  h-16 border-b-2"> */}
       <nav className="flex justify-between bg-gradient-to-r from-black to-cs-gray text-neutral-50 w-screen h-16">
         <div className="px-5 xl:px-12 py-6 flex w-full items-center">
-          <a className="text-xl font-bold font-heading" href="/">
-            <img src="/img/cs-au-logo.png" alt="CS.au" className="h-9 inline align-text-baseline pr-6" />
+          <span className="text-xl font-bold font-heading">
+            <a href="/"><img src="/img/cs-au-logo.png" alt="CS.au" className="h-9 inline align-text-baseline pr-6" /></a>
             <a href="https://www.vms.au.edu" className="text-cs-yellow">VMS:</a> COMPUTER SCIENCE
-          </a>
+          </span>
 
 
           <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
@@ -139,9 +139,9 @@ const Navbar = ({ children }) => {
             stroke="currentColor"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
