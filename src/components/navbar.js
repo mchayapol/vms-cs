@@ -17,7 +17,7 @@ const Navbar = ({ children }) => {
 
 
           <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-            <li>
+            {/* <li>
               <a className="hover:text-gray-200" href="#">
                 Programs
               </a>
@@ -36,11 +36,25 @@ const Navbar = ({ children }) => {
               <a className="text-auspark-red" href="http://auspark.au.edu">
                 AU Spark
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <div className="hidden xl:flex items-center space-x-5 items-center">
-            <a className="hover:text-gray-200" href="#">
+
+              <a className="hover:text-gray-200" href="#">
+                Programs
+              </a>            
+              <a className="hover:text-gray-200" href="#">
+                Study Plan
+              </a>            
+              <a className="hover:text-gray-200" href="/contact">
+                Contact
+              </a>
+            <a className="text-auspark-red" href="http://auspark.au.edu">
+                AU Spark
+              </a>
+
+            {/* <a className="hover:text-gray-200" href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -92,11 +106,11 @@ const Navbar = ({ children }) => {
                   d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
 
-        <a className="xl:hidden flex mr-6 items-center" href="#">
+        {/* <a className="xl:hidden flex mr-6 items-center" href="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 hover:text-gray-200"
@@ -115,7 +129,7 @@ const Navbar = ({ children }) => {
             <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-pink-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-500"></span>
           </span>
-        </a>
+        </a> */}
         <a className="navbar-burger self-center mr-12 xl:hidden" href="#" onClick={openMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
