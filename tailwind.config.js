@@ -39,5 +39,7 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@themesberg/flowbite/plugin')
+  ],
 };
