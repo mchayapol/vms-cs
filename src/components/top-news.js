@@ -35,7 +35,7 @@ const topNewsList = [
   },
 ];
 
-const HeaderNews = ({ children }) => {
+const TopNews = ({ children }) => {
   const [currentNewsIndex, setCurrentNewsIndex] = useState(0);
   const [news, setNews] = useState(topNewsList[0]);
   const selectNews = (idx) => {
@@ -150,7 +150,7 @@ const News = ({news}) => (
     </div>
   </div>
 );
-export default HeaderNews;
+export default TopNews;
 
 
 

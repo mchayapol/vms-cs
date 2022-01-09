@@ -45,7 +45,7 @@ const Navbar = ({ children }) => {
                 Programs
               </a>            
               <a className="hover:text-gray-200" href="#">
-                Study Plan
+                Current Students
               </a>            
               <a className="hover:text-gray-200" href="/contact">
                 Contact
