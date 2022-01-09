@@ -128,14 +128,14 @@ const News = ({news}) => (
     className={`flex flex-col items-center w-full md:flex-row order-2`}
   >
     <div className="w-xs md:max-w-full md:mx-12 md:order-2">
-      <h1 className="text-3xl font-medium tracking-wide text-cs-orange md:text-4xl">
+      <h1 className="text-xl md:text-3xl font-medium tracking-wide text-cs-orange md:text-4xl">
         {news.title}
       </h1>
-      <p className="mt-4 text-neutral-50">{news.content}</p>
+      <p className="text-sm md:text-md mt-4 text-neutral-50">{news.content}</p>
       <div className="mt-6">
         <a
           href={news.url}
-          className="block bg-cs-orange px-3 py-2 font-semibold text-center text-white transform bg-cs-yellow rounded-md md:inline hover:bg-auspark-red"
+          className="block bg-cs-orange px-3 py-2 font-semibold text-sm text-center text-white transform bg-cs-yellow rounded-md inline hover:bg-auspark-red"
         >
           Read more
         </a>

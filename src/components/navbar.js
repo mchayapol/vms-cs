@@ -1,5 +1,4 @@
 import * as React from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = ({ children }) => {
   const openMenu = () => {
@@ -10,7 +9,7 @@ const Navbar = ({ children }) => {
       {/* <nav className="bg-gradient-to-r from-black to-cs-gray text-neutral-50 px-4 flex justify-between  h-16 border-b-2"> */}
       <nav className="flex justify-between bg-gradient-to-r from-black to-cs-gray text-neutral-50 w-screen h-16">
         <div className="px-5 xl:px-12 py-6 flex w-full items-center">
-          <span className="text-xl font-bold font-heading">
+          <span className="text-sm lg:text-xl font-bold font-heading">
             <a href="/"><img src="/img/cs-au-logo.png" alt="CS.au" className="h-9 inline align-text-baseline pr-6" /></a>
             <a href="https://www.vms.au.edu" className="text-cs-yellow">VMS:</a> COMPUTER SCIENCE
           </span>
@@ -41,10 +40,10 @@ const Navbar = ({ children }) => {
 
           <div className="hidden xl:flex items-center space-x-5 items-center">
 
-              <a className="hover:text-gray-200" href="#">
+              <button className="hover:text-gray-200" href="/programs">
                 Programs
-              </a>            
-              <a className="hover:text-gray-200" href="#">
+              </button>            
+              <a className="hover:text-gray-200" href="/current">
                 Current Students
               </a>            
               <a className="hover:text-gray-200" href="/contact">
@@ -130,7 +129,7 @@ const Navbar = ({ children }) => {
             <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-500"></span>
           </span>
         </a> */}
-        <a className="navbar-burger self-center mr-12 xl:hidden" href="#" onClick={openMenu}>
+        <button className="navbar-burger self-center mr-12 xl:hidden"  onClick={openMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 hover:text-gray-200"
@@ -145,7 +144,7 @@ const Navbar = ({ children }) => {
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
-        </a>
+        </button>
       </nav>
     </div>
   );

@@ -11,13 +11,13 @@ const Footer = () => {
 
           <a
             href="https://www.vms.au.edu"
-            className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+            className="my-3 block text-cs-orange hover:text-gray-100 text-sm font-medium duration-700"
           >
             Vincent Mary School of Science and Technology (VMS)
           </a>
           <a
             href="https://www.au.edu"
-            className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700"
+            className="my-3 block text-cs-yellow hover:text-gray-100 text-sm font-medium duration-700"
           >
             Assumption University
           </a>

@@ -3,12 +3,21 @@ import Layout from "../components/layout";
 import Main from "../components/main";
 import TopNews from "../components/top-news";
 import BlogList from "../components/blog-list";
+import Admission from "../components/admission";
 
 const IndexPage = () => {
   return (
     <Layout>
       <TopNews />
-      <BlogList />
+      <div className="flex flex-wrap">
+        <div className="w-1/2 items-center px-4 pt-4">
+          <BlogList />
+        </div>
+
+        <div className="w-1/2 items-center px-4 pt-4">
+          <Admission />
+        </div>
+      </div>
       <Main />
     </Layout>
   );
