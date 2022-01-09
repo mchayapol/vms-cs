@@ -38,7 +38,7 @@ const Navbar = ({ children }) => {
             </li> */}
           </ul>
 
-          <div className="hidden xl:flex items-center space-x-5 items-center">
+          <div className="hidden lg:flex items-center space-x-5 items-center">
 
               <button className="hover:text-gray-200" href="/programs">
                 Programs
@@ -49,7 +49,7 @@ const Navbar = ({ children }) => {
               <a className="hover:text-gray-200" href="/contact">
                 Contact
               </a>
-            <a className="text-auspark-red" href="http://auspark.au.edu">
+            <a className="text-auspark-red" href="https://auspark.au.edu">
                 AU Spark
               </a>
 
@@ -129,7 +129,7 @@ const Navbar = ({ children }) => {
             <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-500"></span>
           </span>
         </a> */}
-        <button className="navbar-burger self-center mr-12 xl:hidden"  onClick={openMenu}>
+        <button className="navbar-burger self-center mr-12 lg:hidden"  onClick={openMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 hover:text-gray-200"

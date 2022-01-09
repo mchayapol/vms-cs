@@ -9,13 +9,12 @@ const IndexPage = () => {
   return (
     <Layout>
       <TopNews />
-      <div className="flex flex-wrap">
-        <div className="w-1/2 items-center px-4 pt-4">
-          <BlogList />
-        </div>
-
-        <div className="w-1/2 items-center px-4 pt-4">
+      <div className="flex flex-col md:flex-row flex-wrap">
+        <div className="w-full md:w-1/2 items-center px-4 pt-4">
           <Admission />
+        </div>
+        <div className="w-full md:w-1/2 items-center px-4 pt-4">
+          <BlogList />
         </div>
       </div>
       <Main />

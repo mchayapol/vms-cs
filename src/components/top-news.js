@@ -2,7 +2,7 @@
 Show at most 5 news
 TODO: It is hardcoded for 4 top news.
 */
-import React, { useState } from "react";
+import React from "react";
 
 const topNewsList = [
   {
@@ -36,12 +36,12 @@ const topNewsList = [
 ];
 
 const TopNews = ({ children }) => {
-  const [currentNewsIndex, setCurrentNewsIndex] = useState(0);
-  const [news, setNews] = useState(topNewsList[0]);
-  const selectNews = (idx) => {
-    setNews(topNewsList[idx]);
-    setCurrentNewsIndex(idx);
-  };
+  // const [currentNewsIndex, setCurrentNewsIndex] = useState(0);
+  // const [news, setNews] = useState(topNewsList[0]);
+  // const selectNews = (idx) => {
+  //   setNews(topNewsList[idx]);
+  //   setCurrentNewsIndex(idx);
+  // };
 
   return (
     <div className="bg-white dark:bg-gray-800">
@@ -100,13 +100,13 @@ const TopNews = ({ children }) => {
               <News news={topNewsList[0]} />
             </li>
             <li>
-            <News news={topNewsList[1]} />
+              <News news={topNewsList[1]} />
             </li>
             <li>
-            <News news={topNewsList[2]} />
+              <News news={topNewsList[2]} />
             </li>
             <li>
-            <News news={topNewsList[3]} />
+              <News news={topNewsList[3]} />
             </li>
             {/* <li>
               <img
@@ -117,12 +117,11 @@ const TopNews = ({ children }) => {
           </ul>
         </div>
       </div>
-
     </div>
   );
 };
 
-const News = ({news}) => (
+const News = ({ news }) => (
   <div
     key={news.title}
     className={`flex flex-col items-center w-full md:flex-row order-2`}
@@ -152,9 +151,7 @@ const News = ({news}) => (
 );
 export default TopNews;
 
-
-
-{/* <div className="container flex flex-col px-6 py-4 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
+/* <div className="container flex flex-col px-6 py-4 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
 <div className="flex justify-center order-1 mr-0 mt-6 md:mt-0 md:space-y-3 md:flex-col">
   {jumboNewsList.map((news, i) => {
     const activeButton =
@@ -199,4 +196,4 @@ export default TopNews;
     />
   </div>
 </div>
-</div> */}
+</div> */
