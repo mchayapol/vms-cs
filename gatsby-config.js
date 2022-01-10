@@ -1,4 +1,5 @@
 module.exports = {
+  // pathPrefix: `/vmscs`,
   siteMetadata: {
     siteUrl: "https://www.cs.au.edu",
     title: "VMS Computer Science",
