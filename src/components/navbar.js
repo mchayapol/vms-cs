@@ -1,4 +1,5 @@
 import React from "react";
+import csLogo from "../images/cs-au-logo.png";
 
 const Navbar = ({ children }) => {
   // const [showProgramMenu, setShowProgramMenu] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = ({ children }) => {
           <span className="text-sm lg:text-xl font-bold font-heading">
             <a href="/">
               <img
-                src="/img/cs-au-logo.png"
+                src={csLogo}
                 alt="CS.au"
                 className="h-9 inline align-text-baseline pr-6"
               />
@@ -109,7 +110,7 @@ const Navbar = ({ children }) => {
               >
                 <li className="rounded-sm px-3 py-1 hover:bg-cs-yellow cursor-pointer">
                   <a href="/current/curriculum-2022">Curriculum 2022</a>
-                </li>                
+                </li>
                 <li className="rounded-sm px-3 py-1 hover:bg-cs-yellow cursor-pointer">
                   <a href="/current/curriculum-2019">Curriculum 2019</a>
                 </li>
@@ -117,9 +118,10 @@ const Navbar = ({ children }) => {
                   <a href="/current/plan">Study Plans</a>
                 </li>
                 <li className="rounded-sm px-3 py-1 hover:bg-cs-yellow cursor-pointer">
-                  <a href="https://www.scitech.au.edu/seniorproject/">Senior Project Systems</a>
+                  <a href="https://www.scitech.au.edu/seniorproject/">
+                    Senior Project Systems
+                  </a>
                 </li>
-                
               </ul>
             </div>
             <a className="font-medium hover:text-gray-200" href="/contact">
