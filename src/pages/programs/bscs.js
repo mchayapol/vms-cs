@@ -47,14 +47,14 @@ const BsProgramPage = () => {
           </div>
 
           <div className="order-3">
-              First, our candidates begin with the masteries of computer
-              programming and the essences of computer science. Then, whether
-              their interest is in creating software innovations, getting a
-              software engineering career in big tech companies, or furthering
-              their study in postgraduate levels, students can select to pursue
-              their track of elective courses that fits their needs, spending
-              their senior year working on real-world projects or software
-              innovations.
+            First, our candidates begin with the masteries of computer
+            programming and the essences of computer science. Then, whether
+            their interest is in creating software innovations, getting a
+            software engineering career in big tech companies, or furthering
+            their study in postgraduate levels, students can select to pursue
+            their track of elective courses that fits their needs, spending
+            their senior year working on real-world projects or software
+            innovations.
           </div>
 
           <div className="order-5">
@@ -62,6 +62,20 @@ const BsProgramPage = () => {
             top of standard graduate study plan. Students are not required to
             officially select a track to begin with, and are free to design
             their own study choices according to their own needs.
+            
+            <div className="flex justify-center mt-4 w-full">
+              <a
+              href="/current"
+                class="inline-block px-6 py-2 border-2 
+              border-cs-gray
+              text-neutral-50
+              bg-cs-orange
+              font-medium text-xs leading-tight uppercase rounded-full 
+              hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+              >
+                See the latest curriculum
+              </a>
+            </div>
           </div>
         </div>
 
