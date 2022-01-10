@@ -54,8 +54,8 @@ const Navbar = ({ children }) => {
 
           <div className="hidden lg:flex items-center space-x-5 items-center">
             <div className="group inline-block">
-              <button className="outline-none focus:outline-none px-3 py-1 rounded-sm flex items-center min-w-32">
-                <span className="pr-1 font-semibold flex-1">Programs</span>
+              <button className="bg-transparent outline-none focus:outline-none px-3 py-1 rounded-sm flex items-center min-w-32">
+                <span className="pr-1 flex-1">Programs</span>
                 <span>
                   <svg
                     className="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
@@ -86,9 +86,42 @@ const Navbar = ({ children }) => {
               </ul>
             </div>
 
-            <a className="font-medium hover:text-gray-200" href="/current">
-              Current Students
-            </a>
+            <div className="group inline-block">
+              <button className="bg-transparent outline-none focus:outline-none px-3 py-1 rounded-sm flex items-center min-w-32">
+                <span className="pr-1 flex-1">Current Students</span>
+                <span>
+                  <svg
+                    className="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                  </svg>
+                </span>
+              </button>
+
+              <ul
+                className="z-40 bg-cs-gray/60 border rounded-sm 
+                transform scale-0 
+                group-hover:scale-100 absolute 
+                transition  duration-150 ease-in-out origin-top min-w-32"
+                style={{ backdropFilter: "blur(6px)" }}
+              >
+                <li className="rounded-sm px-3 py-1 hover:bg-cs-yellow cursor-pointer">
+                  <a href="/current/curriculum-2022">Curriculum 2022</a>
+                </li>                
+                <li className="rounded-sm px-3 py-1 hover:bg-cs-yellow cursor-pointer">
+                  <a href="/current/curriculum-2019">Curriculum 2019</a>
+                </li>
+                <li className="rounded-sm px-3 py-1 hover:bg-cs-yellow cursor-pointer">
+                  <a href="/current/plan">Study Plans</a>
+                </li>
+                <li className="rounded-sm px-3 py-1 hover:bg-cs-yellow cursor-pointer">
+                  <a href="https://www.scitech.au.edu/seniorproject/">Senior Project Systems</a>
+                </li>
+                
+              </ul>
+            </div>
             <a className="font-medium hover:text-gray-200" href="/contact">
               Contact
             </a>

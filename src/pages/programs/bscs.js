@@ -65,7 +65,20 @@ const BsProgramPage = () => {
             
             <div className="flex justify-center mt-4 w-full">
               <a
-              href="/current"
+              href="/current/curriculum-2022"
+                class="inline-block px-6 py-2 border-2 
+                mr-4
+              border-cs-gray
+              text-neutral-50
+              bg-cs-orange
+              font-medium text-xs leading-tight uppercase rounded-full 
+              hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+              >
+                See curriculum [2022]
+              </a>
+
+              <a
+              href="/current/curriculum-2019"
                 class="inline-block px-6 py-2 border-2 
               border-cs-gray
               text-neutral-50
@@ -73,7 +86,7 @@ const BsProgramPage = () => {
               font-medium text-xs leading-tight uppercase rounded-full 
               hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
               >
-                See the latest curriculum
+                See curriculum [2019]
               </a>
             </div>
           </div>
@@ -107,7 +120,7 @@ const BsProgramPage = () => {
           <div className="flex justify-center">
             <div className="block p-6 rounded-lg shadow-lg bg-white w-10/12">
               <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
-                NTI
+                NET
               </h5>
               <p className="text-gray-700 text-base mb-4 h-14">
                 <p className="text-cs-orange text-lg">
@@ -117,7 +130,7 @@ const BsProgramPage = () => {
               <button
                 className=" inline-block px-6 py-2.5 font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
                 data-bs-toggle="modal"
-                data-bs-target="#read-more-nti"
+                data-bs-target="#read-more-net"
               >
                 READ MORE
               </button>
@@ -148,7 +161,7 @@ const BsProgramPage = () => {
           <div className="flex justify-center">
             <div className="block p-6 rounded-lg shadow-lg bg-white w-10/12">
               <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
-                ES
+                ERP
               </h5>
               <p className="text-gray-700 text-base mb-4 h-14">
                 <p className="text-cs-orange text-lg">Enterprise Systems</p>
@@ -156,7 +169,7 @@ const BsProgramPage = () => {
               <button
                 className="inline-block px-6 py-2.5  font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
                 data-bs-toggle="modal"
-                data-bs-target="#read-more-es"
+                data-bs-target="#read-more-erp"
               >
                 READ MORE
               </button>
@@ -231,7 +244,7 @@ const BsProgramPage = () => {
       </div>
 
       <div
-        id="read-more-nti"
+        id="read-more-net"
         className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
         tabindex="-1"
         aria-labelledby="exampleModalLongLabel"
@@ -247,7 +260,7 @@ const BsProgramPage = () => {
                 className="text-xl font-medium leading-normal font-bold text-cs-orange"
                 id="exampleModalLongLabel"
               >
-                NTI: Network Technology and Infrastructure
+                NET: Network Technology and Infrastructure
               </h1>
               <button
                 className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
@@ -352,7 +365,7 @@ const BsProgramPage = () => {
       </div>
 
       <div
-        id="read-more-es"
+        id="read-more-erp"
         className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
         tabindex="-1"
         aria-labelledby="exampleModalLongLabel"

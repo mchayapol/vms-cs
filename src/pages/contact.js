@@ -25,7 +25,7 @@ const ContactPage = () => {
             style={{ backdropFilter: "blur(4px)" }}
           >
             <div className="bg-grey-500">
-              <h2 className="text-black text-lg mb-1 font-medium title-font">
+              <h2 className="text-black text-lg mb-1 font-medium font-bold title-font">
                 Contacts
               </h2>
               <div className="grid grid-cols-[20px_auto] gap-2 text-black">

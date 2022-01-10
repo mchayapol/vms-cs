@@ -12,3 +12,17 @@ button {
   color: #fafafa;
 }
 
+/* Curriculum */
+.curriculum  h1{
+  font-weight: bold;
+}
+
+.curriculum h2 {
+  text-decoration: underline;
+}
+
+.curriculum ul {
+  list-style: square outside;
+  margin-left: 20px;
+  padding-left: 0;
+}
