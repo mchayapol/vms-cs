@@ -123,7 +123,7 @@ const BsProgramPage = () => {
               </div>
             </div>
 
-            <div className="flex justify-center">
+            <div className="hidden flex justify-center">
               <div
                 className="block p-6 rounded-lg shadow-lg bg-white w-10/12
             bg-gradient-to-br from-[#e9bcb7] to-[#29524a]/74"
@@ -146,10 +146,10 @@ const BsProgramPage = () => {
               </div>
             </div>
 
-            <div className="hidden flex justify-center">
+            <div className="flex justify-center">
               <div
                 className="block p-6 rounded-lg shadow-lg bg-white w-10/12
-            bg-gradient-to-br from-[#bdd4e7] to-[#8693ab]/74"
+            bg-gradient-to-br from-[#29524a] to-[#e9bcb7]/74"
               >
                 <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
                   SED
