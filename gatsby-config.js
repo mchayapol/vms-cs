@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.cs.au.edu",
     title: "VMS Computer Science",
+    author: "Chayapol Moemeng"
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -23,7 +24,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/fav.ico",
       },
     },
     "gatsby-plugin-mdx",

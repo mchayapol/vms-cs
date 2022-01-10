@@ -1,11 +1,7 @@
-/*
-Dropdown menu from here
-https://tailwindcomponents.com/component/nestable-dropdown-menu
-*/
-import React, { useState } from "react";
+import React from "react";
 
 const Navbar = ({ children }) => {
-  const [showProgramMenu, setShowProgramMenu] = useState(false);
+  // const [showProgramMenu, setShowProgramMenu] = useState(false);
 
   const openMenu = () => {
     alert("Menu Open!");

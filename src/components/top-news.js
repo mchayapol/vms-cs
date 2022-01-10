@@ -130,7 +130,7 @@ const News = ({ news }) => (
       <h1 className="text-xl md:text-3xl font-medium tracking-wide text-cs-orange md:text-4xl">
         {news.title}
       </h1>
-      <p className="text-sm md:text-md mt-4 text-neutral-50">{news.content}</p>
+      <p className="text-sm md:text-lg mt-4 text-neutral-50">{news.content}</p>
       <div className="mt-6">
         <a
           href={news.url}

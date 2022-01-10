@@ -14,6 +14,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     // colors: colors,
+
+
     extend: {
       colors: {
         "cs-orange": "#f26522",
@@ -40,6 +42,6 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@themesberg/flowbite/plugin')
+    require('tw-elements/dist/plugin')
   ],
 };

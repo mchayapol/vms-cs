@@ -4,7 +4,6 @@ import Main from "../components/main";
 import TopNews from "../components/top-news";
 import BlogList from "../components/blog-list";
 import Admission from "../components/admission";
-import "@themesberg/flowbite";
 
 const IndexPage = () => {
   return (
