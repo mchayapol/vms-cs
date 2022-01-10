@@ -7,6 +7,10 @@ const BsProgramPage = () => {
   return (
     <Layout>
       <div className="container m-auto relative">
+      <h1 className="ml-4 mt-4 text-sm lg:text-4xl font-bold font-heading text-center md:text-left">
+          BSCS: Bachelor of Science in Computer Science
+        </h1>
+
         <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4 m-4">
           <div
             id="card-highlight"
@@ -31,9 +35,6 @@ const BsProgramPage = () => {
           </div>
 
           <div className="order-2 md:order-1">
-            <h1 className="text-sm lg:text-4xl font-bold font-heading text-center md:text-left">
-              BSCS Program
-            </h1>
             Undergraduates will find that our BSCS program emphasizes on
             developing the practicality of the knowledge to real-world use.
             Students learn not only the fundamentals of computer science, but
@@ -62,10 +63,9 @@ const BsProgramPage = () => {
             top of standard graduate study plan. Students are not required to
             officially select a track to begin with, and are free to design
             their own study choices according to their own needs.
-            
             <div className="flex justify-center mt-4 w-full">
               <a
-              href="/current/curriculum-2022"
+                href="/current/curriculum-2022"
                 class="inline-block px-6 py-2 border-2 
                 mr-4
               border-cs-gray
@@ -78,7 +78,7 @@ const BsProgramPage = () => {
               </a>
 
               <a
-              href="/current/curriculum-2019"
+                href="/current/curriculum-2019"
                 class="inline-block px-6 py-2 border-2 
               border-cs-gray
               text-neutral-50
@@ -94,7 +94,10 @@ const BsProgramPage = () => {
 
         <div className="bg-cs-gray/50 p-4 grid grid-flow-row grid-cols-1 md:grid-cols-4 gap-4 mb-4">
           <div className="flex justify-center">
-            <div className="block p-6 rounded-lg shadow-lg bg-white w-10/12">
+            <div
+              className="block p-6 rounded-lg shadow-lg bg-white w-10/12
+            bg-gradient-to-br from-[#bdd4e7] to-[#29524a]/74"
+            >
               <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
                 IDS
               </h5>
@@ -118,7 +121,10 @@ const BsProgramPage = () => {
           </div>
 
           <div className="flex justify-center">
-            <div className="block p-6 rounded-lg shadow-lg bg-white w-10/12">
+            <div
+              className="block p-6 rounded-lg shadow-lg bg-white w-10/12
+            bg-gradient-to-br from-[#e9bcb7] to-[#29524a]/74"
+            >
               <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
                 NET
               </h5>
@@ -138,7 +144,10 @@ const BsProgramPage = () => {
           </div>
 
           <div className="flex justify-center">
-            <div className="block p-6 rounded-lg shadow-lg bg-white w-10/12">
+            <div
+              className="block p-6 rounded-lg shadow-lg bg-white w-10/12
+            bg-gradient-to-br from-[#bdd4e7] to-[#8693ab]/74"
+            >
               <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
                 SED
               </h5>
@@ -159,7 +168,10 @@ const BsProgramPage = () => {
           </div>
 
           <div className="flex justify-center">
-            <div className="block p-6 rounded-lg shadow-lg bg-white w-10/12">
+            <div
+              className="block p-6 rounded-lg shadow-lg bg-white w-10/12
+            bg-gradient-to-br from-[#7f5a83] to-[#0d324d]/74"
+            >
               <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
                 ERP
               </h5>

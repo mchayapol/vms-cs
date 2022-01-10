@@ -5,8 +5,8 @@ const MsProgramPage = () => {
   return (
     <Layout>
       <div className="container m-auto relative">
-        <h1 className="text-sm lg:text-4xl font-bold font-heading text-center md:text-left">
-          MSCS Program
+        <h1 className="ml-4 mt-4 text-sm lg:text-4xl font-bold font-heading text-center md:text-left">
+          MSCS: Master of Science in Computer Science
         </h1>
 
         <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4 m-4">
@@ -99,7 +99,7 @@ const MsProgramPage = () => {
                 </h1>
 
                 <p>
-                  <ol>
+                <ol className="pl-6 list-decimal">
                     <li>A completed application form</li>
                     <li>
                       Official transcript from the previous university attended
