@@ -6,7 +6,7 @@ const Curriculumn2019 = () => {
   return (
     <Layout>
       <section className="m-10">
-        <h2 className="font-bold text-xl text-cs-orange">2019 Curriculum</h2>
+        <h2 className="font-bold text-xl text-cs-orange">2019 Curriculum (132 Credits)</h2>
         <ul
           id="info-tab"
           className="

@@ -7,7 +7,7 @@ const BsProgramPage = () => {
   return (
     <Layout>
       <div className="container m-auto relative">
-      <h1 className="ml-4 mt-4 text-sm lg:text-4xl font-bold font-heading text-center md:text-left">
+        <h1 className="ml-4 mt-4 text-sm lg:text-4xl font-bold font-heading text-center md:text-left">
           BSCS: Bachelor of Science in Computer Science
         </h1>
 
@@ -48,21 +48,22 @@ const BsProgramPage = () => {
           </div>
 
           <div className="order-3">
-            First, our candidates begin with the masteries of computer
-            programming and the essences of computer science. Then, whether
-            their interest is in creating software innovations, getting a
-            software engineering career in big tech companies, or furthering
-            their study in postgraduate levels, students can select to pursue
-            their track of elective courses that fits their needs, spending
-            their senior year working on real-world projects or software
-            innovations.
-          </div>
-
-          <div className="order-5">
-            Note: CS study tracks are designed only as an informal guidelines on
-            top of standard graduate study plan. Students are not required to
-            officially select a track to begin with, and are free to design
-            their own study choices according to their own needs.
+            <p>
+              First, our candidates begin with the masteries of computer
+              programming and the essences of computer science. Then, whether
+              their interest is in creating software innovations, getting a
+              software engineering career in big tech companies, or furthering
+              their study in postgraduate levels, students can select to pursue
+              their track of elective courses that fits their needs, spending
+              their senior year working on real-world projects or software
+              innovations.
+            </p>
+            <p className="mt-4">
+              Note: CS study tracks are designed only as an informal guidelines
+              on top of standard graduate study plan. Students are not required
+              to officially select a track to begin with, and are free to design
+              their own study choices according to their own needs.
+            </p>
             <div className="flex justify-center mt-4 w-full">
               <a
                 href="/current/curriculum-2022"
@@ -90,107 +91,111 @@ const BsProgramPage = () => {
               </a>
             </div>
           </div>
-        </div>
 
-        <div className="bg-cs-gray/50 p-4 grid grid-flow-row grid-cols-1 md:grid-cols-4 gap-4 mb-4">
-          <div className="flex justify-center">
-            <div
-              className="block p-6 rounded-lg shadow-lg bg-white w-10/12
+          <div
+            id="cards-concentration"
+            className="order-4 bg-cs-gray/50 p-4 grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4 mb-4"
+          >
+            <div className="flex justify-center">
+              <div
+                className="block p-6 rounded-lg shadow-lg bg-white w-10/12
             bg-gradient-to-br from-[#bdd4e7] to-[#29524a]/74"
-            >
-              <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
-                IDS
-              </h5>
-              <p className="text-gray-700 text-base mb-4 h-14">
-                <p className="text-cs-orange text-lg">
-                  Informatics and Data Science
+              >
+                <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
+                  IDS
+                </h5>
+                <p className="text-gray-700 text-base mb-4 h-14">
+                  <p className="text-cs-orange text-lg">
+                    Informatics and Data Science
+                  </p>
                 </p>
-              </p>
-              <button
-                className=" inline-block px-6 py-2.5 
+                <button
+                  className=" inline-block px-6 py-2.5 
                 font-medium text-xs leading-tight uppercase rounded shadow-md 
                 hover:shadow-lg 
                 focus:shadow-lg focus:outline-none focus:ring-0 
                 active:shadow-lg transition duration-150 ease-in-out"
-                data-bs-toggle="modal"
-                data-bs-target="#read-more-ids"
-              >
-                Read more
-              </button>
+                  data-bs-toggle="modal"
+                  data-bs-target="#read-more-ids"
+                >
+                  Read more
+                </button>
+              </div>
             </div>
-          </div>
 
-          <div className="flex justify-center">
-            <div
-              className="block p-6 rounded-lg shadow-lg bg-white w-10/12
+            <div className="flex justify-center">
+              <div
+                className="block p-6 rounded-lg shadow-lg bg-white w-10/12
             bg-gradient-to-br from-[#e9bcb7] to-[#29524a]/74"
-            >
-              <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
-                NET
-              </h5>
-              <p className="text-gray-700 text-base mb-4 h-14">
-                <p className="text-cs-orange text-lg">
-                  Network Technology and Infrastructure
-                </p>
-              </p>
-              <button
-                className=" inline-block px-6 py-2.5 font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
-                data-bs-toggle="modal"
-                data-bs-target="#read-more-net"
               >
-                READ MORE
-              </button>
+                <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
+                  NET
+                </h5>
+                <p className="text-gray-700 text-base mb-4 h-14">
+                  <p className="text-cs-orange text-lg">
+                    Network Technology and Infrastructure
+                  </p>
+                </p>
+                <button
+                  className=" inline-block px-6 py-2.5 font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
+                  data-bs-toggle="modal"
+                  data-bs-target="#read-more-net"
+                >
+                  READ MORE
+                </button>
+              </div>
             </div>
-          </div>
 
-          <div className="flex justify-center">
-            <div
-              className="block p-6 rounded-lg shadow-lg bg-white w-10/12
+            <div className="hidden flex justify-center">
+              <div
+                className="block p-6 rounded-lg shadow-lg bg-white w-10/12
             bg-gradient-to-br from-[#bdd4e7] to-[#8693ab]/74"
-            >
-              <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
-                SED
-              </h5>
-              <p className="text-gray-700 text-base mb-4 h-14">
-                <p className="text-cs-orange text-lg">
-                  Software Engineering and Development
+              >
+                <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
+                  SED
+                </h5>
+                <p className="text-gray-700 text-base mb-4 h-14">
+                  <p className="text-cs-orange text-lg">
+                    Software Engineering and Development
+                  </p>
                 </p>
-              </p>
 
-              <button
-                className=" inline-block px-6 py-2.5  text-white font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
-                data-bs-toggle="modal"
-                data-bs-target="#read-more-sed"
-              >
-                READ MORE
-              </button>
+                <button
+                  className=" inline-block px-6 py-2.5  text-white font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
+                  data-bs-toggle="modal"
+                  data-bs-target="#read-more-sed"
+                >
+                  READ MORE
+                </button>
+              </div>
             </div>
-          </div>
 
-          <div className="flex justify-center">
-            <div
-              className="block p-6 rounded-lg shadow-lg bg-white w-10/12
+            <div className="hidden flex justify-center">
+              <div
+                className="block p-6 rounded-lg shadow-lg bg-white w-10/12
             bg-gradient-to-br from-[#7f5a83] to-[#0d324d]/74"
-            >
-              <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
-                ERP
-              </h5>
-              <p className="text-gray-700 text-base mb-4 h-14">
-                <p className="text-cs-orange text-lg">Enterprise Systems</p>
-              </p>
-              <button
-                className="inline-block px-6 py-2.5  font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
-                data-bs-toggle="modal"
-                data-bs-target="#read-more-erp"
               >
-                READ MORE
-              </button>
+                <h5 className="text-gray-900 text-7xl leading-tight font-medium mb-2">
+                  ERP
+                </h5>
+                <p className="text-gray-700 text-base mb-4 h-14">
+                  <p className="text-cs-orange text-lg">Enterprise Systems</p>
+                </p>
+                <button
+                  className="inline-block px-6 py-2.5  font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
+                  data-bs-toggle="modal"
+                  data-bs-target="#read-more-erp"
+                >
+                  READ MORE
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div
+        className="order-5"
         id="read-more-ids"
         className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
         tabindex="-1"

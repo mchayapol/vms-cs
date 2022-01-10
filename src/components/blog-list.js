@@ -1,8 +1,9 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { format,
-  //  formatDistance, formatRelative, subDays 
-  } from "date-fns";
+import {
+  format,
+  //  formatDistance, formatRelative, subDays
+} from "date-fns";
 // import parse from "html-react-parser";
 
 const BlogList = ({ itemCount = 4 }) => {
@@ -130,9 +131,23 @@ const BlogList = ({ itemCount = 4 }) => {
             <div className="absolute shadow bg-white top-100 z-40 w-full lef-0 rounded max-h-select overflow-y-auto svelte-5uyqqj">
               <div className="flex flex-col w-full">
                 {posts.slice(1, 1 + itemCount).map((p, i) => (
-                  <BlogItem post={p} key={i} />
+                  <a href={`/blogs/${p.slug}`}>
+                    <BlogItem post={p} key={i} />
+                  </a>
                 ))}
               </div>
+            <a
+              href="https://portal.scitech.au.edu/blog"
+              class="inline-block px-6 py-2 border-2 
+                m-4 item-right
+              border-cs-gray
+              text-neutral-50
+              bg-cs-orange
+              font-medium text-xs leading-tight uppercase rounded-full 
+              hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+            >
+              See all news at VMS Blogs
+            </a>
             </div>
           </div>
         </div>

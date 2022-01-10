@@ -9,9 +9,12 @@ const WpPost = ({
 }) => {
   return (
     <Layout>
-      <div className={`container post-${id}`}>
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+
+      <div className="container m-auto">
+        <h1 className="ml-4 mt-4 text-sm lg:text-4xl font-bold font-heading text-center md:text-left">
+          {title}
+        </h1>        
+        <div className="m-4" dangerouslySetInnerHTML={{ __html: content }} />
       </div>
     </Layout>
   );
