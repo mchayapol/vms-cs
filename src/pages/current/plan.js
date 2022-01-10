@@ -7,7 +7,8 @@ const CurrentStudentPage = () => {
     <Layout>
       <section className="m-10">
         <h1 className="font-bold text-xl text-cs-orange">Study Plan</h1>
-        <ul id="info-tab"
+        <ul
+          id="info-tab"
           className="
   nav nav-tabs nav-justified
   flex flex-col
@@ -114,7 +115,13 @@ const CurrentStudentPage = () => {
             role="tabpanel"
             aria-labelledby="tabs-home-tabJustify"
           >
-            xxxx
+            <ul>
+              <li>
+                <a href="pdf/bscs2019-study-plan-64.pdf">
+                  Download 2019 study plan (64x students)
+                </a>
+              </li>
+            </ul>
           </div>
           <div
             className="tab-pane fade"
@@ -122,7 +129,13 @@ const CurrentStudentPage = () => {
             role="tabpanel"
             aria-labelledby="tabs-profile-tabJustify"
           >
-            Tab 2 content justify
+            <ul>
+              <li>
+                <a href="pdf/bscs2019-study-plan-62-63.pdf">
+                  Download 2019 study plan (62x-63x students)
+                </a>
+              </li>
+            </ul>
           </div>
           <div
             className="tab-pane fade"
@@ -130,7 +143,20 @@ const CurrentStudentPage = () => {
             role="tabpanel"
             aria-labelledby="tabs-profile-tabJustify"
           >
-            Tab 3 content justify
+            <div
+              class="bg-yellow-100 rounded-lg py-5 px-6 mb-4 text-base text-yellow-700 mb-3"
+              role="alert"
+            >
+              <h1>Warning these subjects must be taken as soon as possible</h1>
+              <ul>
+                <li>Intellectual Property Law</li>
+              </ul>
+            </div>
+            <ul>
+              <li>
+                <a href="pdf/bscs2014.pdf">Download 2014 study plan</a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
