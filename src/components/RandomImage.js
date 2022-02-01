@@ -1,8 +1,9 @@
 import React from 'react'
 const images = [
-  {src:"https://www.cs.au.edu/assets/img/IMG_1289.png"},
-  {src:"https://www.cs.au.edu/assets/img/IMG_4086.jpg"},
-  {src:"https://www.cs.au.edu/assets/img/IMG_3966.jpg"},
+  {src:"/images/heading1.png"},
+  {src:"/images/IMG_1289.png"},
+  {src:"/images/IMG_4086.jpg"},
+  {src:"/images/IMG_3966.jpg"},
 ]
 
 const RandomImage = ({alt="", ...rest }) => {

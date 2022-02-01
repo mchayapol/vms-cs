@@ -117,8 +117,8 @@ const CurrentStudentPage = () => {
           >
             <ul>
               <li>
-                <a href="pdf/bscs2019-study-plan-64.pdf">
-                  Download 2019 study plan (64x students)
+                <a href="/pdf/bscs2022-study-plan-65.pdf">
+                  Download 2022 study plan (65x students)
                 </a>
               </li>
             </ul>
@@ -131,7 +131,12 @@ const CurrentStudentPage = () => {
           >
             <ul>
               <li>
-                <a href="pdf/bscs2019-study-plan-62-63.pdf">
+                <a href="/pdf/bscs2019-study-plan-64.pdf">
+                  Download 2019 study plan (64x students)
+                </a>
+              </li>
+              <li>
+                <a href="/pdf/bscs2019-study-plan-62-63.pdf">
                   Download 2019 study plan (62x-63x students)
                 </a>
               </li>
@@ -154,7 +159,7 @@ const CurrentStudentPage = () => {
             </div>
             <ul>
               <li>
-                <a href="pdf/bscs2014.pdf">Download 2014 study plan</a>
+                <a href="/pdf/bscs2014.pdf">Download 2014 study plan</a>
               </li>
             </ul>
           </div>

@@ -48,7 +48,7 @@ const BlogList = ({ itemCount = 4 }) => {
           <div
             className="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom"
             style={{
-              backgroundImage: `url(${p0.featuredImage.node.sourceUrl})`,
+              backgroundImage: `url(${p0.featuredImage?.node.sourceUrl})`,
               backgroundBlendMode: "multiply",
             }}
           ></div>
